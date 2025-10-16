@@ -11,8 +11,7 @@ import  { Toaster } from 'react-hot-toast';
 function App() {
   return (
     <>
-    
-      <div className=''>
+      <div >
         <NavBar />
         <Home/>
         <About/>
