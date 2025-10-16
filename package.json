@@ -1,9 +1,13 @@
 {
   "name": "portfolio-tutorial",
+  "homepage": "https://bisu39.github.io/Portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
   "scripts": {
+
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
