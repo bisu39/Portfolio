@@ -34,12 +34,12 @@ function Skill() {
     },
     {
       id: 7,
-      imgsrc: "/Portfolio/Langues/git.jpeg",
+      imgsrc: "/Portfolio/Portfolio/Langues/git.jpeg",
       text: "git",
     },
     {
       id: 8,
-      imgsrc: "v/Langues/github.png",
+      imgsrc: "/Portfolio/Langues/github.png",
       text: "GitHub",
     },
     {
