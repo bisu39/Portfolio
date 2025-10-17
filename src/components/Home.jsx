@@ -10,6 +10,7 @@ import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { ReactTyped } from "react-typed";
 
+
 function Home() {
     
     return (
@@ -18,7 +19,7 @@ function Home() {
                 <div className='flex flex-col md:flex-row mt-12 md:mt-20'>
                     <div className='md:w-1/2 flex flex-col items-center space-y-2 order-2 md:order-1'>
                         <span className='md:text-2xl'>Welcome In My Feed</span>
-                        <h1 className='font-bold text-md md:text-2xl line-h md:leading-16'>Hello, I'm a <span className='text-red-700'>
+                        <h1 className='font-bold text-md md:text-2xl line-h md:leading-16' tabIndex={-1} >Hello, I'm a <span className='text-red-700'>
                             <div className='inline'>
                                 <ReactTyped
                                     strings={[
@@ -30,7 +31,7 @@ function Home() {
                                     backSpeed={50}
                                     loop
                                 >
-                                    <input type="text" />
+                                    <input type="text" className='focus:outline-none'/>
                                 </ReactTyped>
                             </div></span></h1>
                         <p className='text-sm  md:text-lg text-justify'>Hi, I'm Biswajit—a self-taught frontend developer blending artistic intuition with modern web technologies. With a background in Arts and a passion for clean, expressive interfaces, I specialize in building responsive, interactive websites using <span className='font-bold'> JavaScript, HTML, CSS, React, Tailwind CSS, GSAP,</span> and more.
