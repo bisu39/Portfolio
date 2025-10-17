@@ -31,7 +31,7 @@ function NavBar() {
         <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 shadow-md fixed z-50 top-0 h-16 bg-white'>
             <div className='flex justify-between h-16 items-center'>
                 <div className='flex space-x-2 items-center'>
-                    <img src="/frontend-logo.jpg" alt="" className='h-12 w-12' />
+                    <img src="../public/frontend-logo.jpg" alt="" className='h-12 w-12' />
                     <h1 className='font-semibold text-2xl'>Biswaji<span className='text-green-500'>t</span>
                         <p className='text-sm'>Frontend Developer</p>
                     </h1>
