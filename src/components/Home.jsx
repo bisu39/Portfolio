@@ -31,7 +31,7 @@ function Home() {
                                     backSpeed={50}
                                     loop
                                 >
-                                    <input type="text" className='focus:outline-none'/>
+                                    <input type="text" readOnly className='focus:outline-none'/>
                                 </ReactTyped>
                             </div></span></h1>
                         <p className='text-sm  md:text-lg text-justify'>Hi, I'm Biswajit—a self-taught frontend developer blending artistic intuition with modern web technologies. With a background in Arts and a passion for clean, expressive interfaces, I specialize in building responsive, interactive websites using <span className='font-bold'> JavaScript, HTML, CSS, React, Tailwind CSS, GSAP,</span> and more.
