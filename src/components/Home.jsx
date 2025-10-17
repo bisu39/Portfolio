@@ -18,7 +18,7 @@ function Home() {
                 <div className='flex flex-col md:flex-row mt-12 md:mt-20'>
                     <div className='md:w-1/2 flex flex-col items-center space-y-2 order-2 md:order-1'>
                         <span className='md:text-2xl'>Welcome In My Feed</span>
-                        <h1 className='font-bold text-xl md:text-4xl line-h md:leading-16'>Hello, I'm a <span className='text-red-700'>
+                        <h1 className='font-bold text-md md:text-2xl line-h md:leading-16'>Hello, I'm a <span className='text-red-700'>
                             <div className='inline'>
                                 <ReactTyped
                                     strings={[
