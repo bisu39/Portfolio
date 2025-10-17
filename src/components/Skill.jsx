@@ -34,7 +34,7 @@ function Skill() {
     },
     {
       id: 7,
-      imgsrc: "/Portfolio/Portfolio/Langues/git.jpeg",
+      imgsrc: "/Portfolio/Langues/git.jpeg",
       text: "git",
     },
     {
