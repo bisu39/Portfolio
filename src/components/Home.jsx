@@ -63,7 +63,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='md:w-1/2 flex justify-center items-center order-1'>
-                        <img src="/Profile-pic.jpg" alt="" className='md:h-[400px] md:w-[400px] h-[250px] w-[250px] mt-2 md:mt-0 rounded-full ml-4 ' />
+                        <img src="/Portfolio/Profile-pic.jpg" alt="" className='md:h-[400px] md:w-[400px] h-[250px] w-[250px] mt-2 md:mt-0 rounded-full ml-4 ' />
                     </div>
                 </div>
             </div>

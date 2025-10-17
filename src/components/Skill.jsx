@@ -4,47 +4,47 @@ function Skill() {
   const skillItems = [
     {
       id: 1,
-      imgsrc: "/Langues/html.png",
+      imgsrc: "/Portfolio/Langues/html.png",
       text: "HTML",
     },
     {
       id: 2,
-      imgsrc: "/Langues/css.jpg",
+      imgsrc: "/Portfolio/Langues/css.jpg",
       text: "CSS",
     },
     {
       id: 3,
-      imgsrc: "/Langues/javascript.png",
+      imgsrc: "/Portfolio/Langues/javascript.png",
       text: "JavaScript",
     },
     {
       id: 4,
-      imgsrc: "/Langues/reactjs.png",
+      imgsrc: "/Portfolio/Langues/reactjs.png",
       text: "ReactJS",
     },
     {
       id: 5,
-      imgsrc: "/Langues/tailwind.png",
+      imgsrc: "/Portfolio/Langues/tailwind.png",
       text: "Tailwind CSS",
     },
     {
       id: 6,
-      imgsrc: "/Langues/bootstrap.png",
+      imgsrc: "/Portfolio/Langues/bootstrap.png",
       text: "Bootstrap",
     },
     {
       id: 7,
-      imgsrc: "/Langues/git.jpeg",
+      imgsrc: "/Portfolio/Langues/git.jpeg",
       text: "git",
     },
     {
       id: 8,
-      imgsrc: "/Langues/github.png",
+      imgsrc: "v/Langues/github.png",
       text: "GitHub",
     },
     {
       id: 9,
-      imgsrc: "/Langues/terminal.png",
+      imgsrc: "/Portfolio/Langues/terminal.png",
       text: "Terminal",
     }
   ]

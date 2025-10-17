@@ -4,14 +4,14 @@ function Portfolio() {
   const CardItems = [
     {
       id: 1,
-      imgsrc: "/Project-pics/Flipkart-clone.png",
+      imgsrc: "/Portfolio/Project-pics/Flipkart-clone.png",
       title: "Flipkart Clone",
       text: "A comprehensive clone of the Flipkart e-commerce platform landing page, built using HTML, CSS and JS for the frontend. It includes responsive layouts, and a user-friendly interface to showcase products effectively.",
       view: "https://bisu39.github.io/Flipkart_clone/",
     },
     {
       id: 2,
-      imgsrc: "/Project-pics/Parallax-webpage.png",
+      imgsrc: "/Portfolio/Project-pics/Parallax-webpage.png",
       title: "Parallax Webpage",
       text: "A comprehensive clone of the Flipkart e-commerce platform landing page, built using HTML and CSS for the frontend to give users a parallex effect while scrolling on page. ",
       view: "https://bisu39.github.io/Parallax_website/",
