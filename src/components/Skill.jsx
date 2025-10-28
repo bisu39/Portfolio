@@ -46,6 +46,11 @@ function Skill() {
       id: 9,
       imgsrc: "/Portfolio/Langues/terminal.png",
       text: "Terminal",
+    },
+    {
+      id: 10,
+      imgsrc: "/Portfolio/Langues/gsap.png",
+      text: "GSAP",
     }
   ]
   return (
