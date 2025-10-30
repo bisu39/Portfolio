@@ -10,7 +10,6 @@ import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { ReactTyped } from "react-typed";
 
-
 function Home() {
     
     return (
@@ -58,7 +57,6 @@ function Home() {
                                     <FaBootstrap className='hover:scale-110 duration-200 rounded-full border-[1px] p-[1px]' />
                                     <FaReact className='hover:scale-110 duration-200 rounded-full border-[1px] p-[1px]' />
                                     <RiTailwindCssFill className='hover:scale-110 duration-200 rounded-full border-[1px] p-[1px]' />
-
                                 </div>
                             </div>
                         </div>
@@ -73,4 +71,4 @@ function Home() {
     )
 }
 
-export default Home
+export default Home;

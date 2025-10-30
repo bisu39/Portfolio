@@ -7,7 +7,7 @@ function Portfolio() {
       id: 1,
       imgsrc: "/Portfolio/Project-pics/Flipkart-clone.png",
       title: "Flipkart Clone",
-      text: "A comprehensive clone of the Flipkart e-commerce platform landing page, built using HTML, CSS and JS for the frontend. It includes responsive layouts, and a user-friendly interface to showcase products effectively.",
+      text: "A comprehensive beautiful landing page of an website with parallax effect to make the page visually pleasing, built using HTML, CSS and JS for the frontend. It includes responsive layouts, and a user-friendly interface to showcase products or services effectively.It's clean and modern design ensures an engaging user experience across various devices.",
       view: "https://bisu39.github.io/Flipkart_clone/",
       code: "https://github.com/bisu39/Flipkart_clone.git",
     },
