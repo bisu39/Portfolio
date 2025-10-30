@@ -79,10 +79,10 @@ function Portfolio() {
             <div key={id} className='border-[1px] md:w-[600px] md:h-[400px] p-2  mb-6 rounded-lg hover:scale-105 duration-200'>
               <img src={imgsrc} alt={title} className='rounded-lg md:h-[230px] w-full shadow-xl' />
               <h1 className='font-bold text-[16px] md:text-xl my-2'>{title}</h1>
-              <p className='justify text-sm'>{text}</p>
-              <div className='flex justify-between'>
-                <a href={view} target='blank' className='text-blue-700 mt-2 hover:text-red-500' > See live</a>
-                <a href={code} target='blank' className='text-pink-700 mt-2 hover:text-red-500' > See code</a>
+              <p className='justify text-[12px]'>{text}</p>
+              <div className='flex justify-between bottom-[-15px] relative'>
+                <a href={view} target='blank' className='text-blue-700 mt-2 hover:text-red-500 ' > See live</a>
+                <a href={code} target='blank' className='text-pink-700 mt-2 hover:text-red-500 ' > See code</a>
               </div>
 
             </div>)}
