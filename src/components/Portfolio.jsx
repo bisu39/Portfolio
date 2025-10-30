@@ -7,7 +7,7 @@ function Portfolio() {
       id: 1,
       imgsrc: "/Portfolio/Project-pics/Flipkart-clone.png",
       title: "Flipkart Clone",
-      text: "A comprehensive beautiful landing page of an website with parallax effect to make the page visually pleasing, built using HTML, CSS and JS for the frontend. It includes responsive layouts, and a user-friendly interface to showcase products or services effectively.It's clean and modern design ensures an engaging user experience across various devices.",
+      text: "A comprehensive clone of the Flipkart e-commerce platform landing page, featuring auto-sliding banners, hover-triggered dropdown menus, and categorically divided options for customers to choose from — built using HTML , CSS  and JavaScript for the frontend.",
       view: "https://bisu39.github.io/Flipkart_clone/",
       code: "https://github.com/bisu39/Flipkart_clone.git",
     },
@@ -15,8 +15,7 @@ function Portfolio() {
       id: 2,
       imgsrc: "/Portfolio/Project-pics/Parallax-webpage.png",
       title: "Parallax Webpage",
-      text: "A comprehensive clone of the Flipkart e-commerce platform landing page, built using HTML and CSS for the frontend to give users a parallex effect while scrolling on page. ",
-      view: "https://bisu39.github.io/Parallax_website/",
+      text: "A comprehensive and visually appealing landing page for a website, featuring a parallax effect to enhance aesthetics — built using HTML, CSS, and JavaScript for the frontend. It includes responsive layouts and a user-friendly interface to effectively showcase products or services. Its clean, modern design ensures an engaging user experience across various devices."      view: "https://bisu39.github.io/Parallax_website/",
       code: "https://github.com/bisu39/Parallax_website.git",
     },
     {
@@ -69,27 +68,27 @@ function Portfolio() {
     }
 
   ];
- 
-    {
-  return (
-    <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 mt-6' name="Projects">
-      <h1 className='md:text-3xl text-xl font-bold md:mb-5 mb-4'>Projects</h1>
-      <div className='md:grid grid-cols-2 justify-around'>
-        {CardItems.map(({ id, imgsrc, title, text, view,code }) =>
-          <div key={id} className='border-[1px] md:w-[600px] md:h-[400px] p-2  mb-6 rounded-lg hover:scale-105 duration-200'>
-            <img src={imgsrc} alt={title} className='rounded-lg md:h-[230px] w-full shadow-xl' />
-            <h1 className='font-bold text-[16px] md:text-xl my-2'>{title}</h1>
-            <p className='justify text-sm'>{text}</p>
-            <div className='flex justify-between'>
-              <a href={view} target='blank' className='text-blue-700 mt-2 hover:text-red-500' > See live</a>
-            <a href={code} target='blank' className='text-pink-700 mt-2 hover:text-red-500' > See code</a>
-            </div>
-            
-          </div>)}
+
+  {
+    return (
+      <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 mt-6' name="Projects">
+        <h1 className='md:text-3xl text-xl font-bold md:mb-5 mb-4'>Projects</h1>
+        <div className='md:grid grid-cols-2 justify-around'>
+          {CardItems.map(({ id, imgsrc, title, text, view, code }) =>
+            <div key={id} className='border-[1px] md:w-[600px] md:h-[400px] p-2  mb-6 rounded-lg hover:scale-105 duration-200'>
+              <img src={imgsrc} alt={title} className='rounded-lg md:h-[230px] w-full shadow-xl' />
+              <h1 className='font-bold text-[16px] md:text-xl my-2'>{title}</h1>
+              <p className='justify text-sm'>{text}</p>
+              <div className='flex justify-between'>
+                <a href={view} target='blank' className='text-blue-700 mt-2 hover:text-red-500' > See live</a>
+                <a href={code} target='blank' className='text-pink-700 mt-2 hover:text-red-500' > See code</a>
+              </div>
+
+            </div>)}
+        </div>
       </div>
-    </div>
-  )
-}
+    )
+  }
 }
 
 export default Portfolio;
