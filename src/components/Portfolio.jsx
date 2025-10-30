@@ -15,7 +15,8 @@ function Portfolio() {
       id: 2,
       imgsrc: "/Portfolio/Project-pics/Parallax-webpage.png",
       title: "Parallax Webpage",
-      text: "A comprehensive and visually appealing landing page for a website, featuring a parallax effect to enhance aesthetics — built using HTML, CSS, and JavaScript for the frontend. It includes responsive layouts and a user-friendly interface to effectively showcase products or services. Its clean, modern design ensures an engaging user experience across various devices."      view: "https://bisu39.github.io/Parallax_website/",
+      text: "A comprehensive and visually appealing landing page for a website, featuring a parallax effect to enhance aesthetics — built using HTML and  CSS for the frontend. It includes responsive layouts and a user-friendly interface to effectively showcase products or services. Its clean, modern design ensures an engaging user experience across various devices.",
+      view: "https://bisu39.github.io/Parallax_website/",
       code: "https://github.com/bisu39/Parallax_website.git",
     },
     {
