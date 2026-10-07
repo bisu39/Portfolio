@@ -20,7 +20,7 @@ function Skill() {
     {
       id: 4,
       imgsrc: "/Portfolio/Langues/reactjs.png",
-      text: "ReactJS",
+      text: "React.js",
     },
     {
       id: 5,
@@ -32,26 +32,38 @@ function Skill() {
       imgsrc: "/Portfolio/Langues/bootstrap.png",
       text: "Bootstrap",
     },
-    {
+     {
       id: 7,
+      imgsrc: "/Portfolio/Langues/express.png",
+      text: "express.js",
+    },
+     {
+      id: 8,
+      imgsrc: "/Portfolio/Langues/node.png",
+      text: "node.js",
+    },
+    {
+      id: 9,
       imgsrc: "/Portfolio/Langues/git.jpeg",
       text: "git",
     },
     {
-      id: 8,
+      id: 10,
       imgsrc: "/Portfolio/Langues/github.png",
       text: "GitHub",
     },
     {
-      id: 9,
+      id: 11,
       imgsrc: "/Portfolio/Langues/terminal.png",
       text: "Terminal",
     },
     {
-      id: 10,
+      id: 12,
       imgsrc: "/Portfolio/Langues/gsap.png",
       text: "GSAP",
-    }
+    },
+  
+    
   ]
   return (
     <div>

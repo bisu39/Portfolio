@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
@@ -11,7 +10,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { ReactTyped } from "react-typed";
 
 function Home() {
-    
+
     return (
         <div name="Home"  >
             <div className=' max-w-screen-2xl container mx-auto px-4 md:px-20 mt-20 '>
@@ -23,19 +22,20 @@ function Home() {
                                 <ReactTyped
                                     strings={[
                                         "Coder",
-                                        "Frontend Developer",
+                                        "MERN Developer",
                                         "Programer",
                                     ]}
                                     typeSpeed={40}
                                     backSpeed={50}
                                     loop
                                 >
-                                    <input type="text" readOnly className='focus:outline-none'/>
+                                    <input type="text" readOnly className='focus:outline-none' />
                                 </ReactTyped>
                             </div></span></h1>
-                        <p className='text-sm  md:text-lg text-justify'>Hi, I'm Biswajit—a self-taught frontend developer blending artistic intuition with modern web technologies. With a background in Arts and a passion for clean, expressive interfaces, I specialize in building responsive, interactive websites using <span className='font-bold'> JavaScript, HTML, CSS, React, Tailwind CSS, GSAP,</span> and more.
-                            My journey began with curiosity and a commitment to clarity. Today, I craft dynamic user experiences, debug complex workflows, and design scalable components that feel intuitive and perform beautifully.
-                            I believe in learning by doing, refining by sharing, and building tools that empower others.</p>
+                        <p className='text-sm  md:text-lg text-justify'>
+                            I’m a self-taught MERN Stack Developer focused on building modern, responsive, and scalable web applications. I work across the full stack using <span className="font-bold">MongoDB, Express.js, React, and Node.js</span> with a strong interest in backend development, RESTful APIs, and system design.
+
+                            Through hands-on projects and continuous learning, I’ve developed practical experience in <span className="font-bold">API development, authentication, database management, frontend integration, and deployment</span> . I’m driven by curiosity, problem-solving, and a commitment to writing clean, maintainable code while continuously expanding my technical expertise.</p>
                         {/* Social media Icons */}
 
                         <div className='flex justify-between w-[90%]'>
