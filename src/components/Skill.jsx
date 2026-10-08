@@ -24,41 +24,46 @@ function Skill() {
     },
     {
       id: 5,
+      imgsrc: "/Portfolio/Langues/mongoDB-logopng",
+      text: "mongoDB",
+    },
+    {
+      id: 6,
       imgsrc: "/Portfolio/Langues/tailwind.png",
       text: "Tailwind CSS",
     },
     {
-      id: 6,
+      id: 7,
       imgsrc: "/Portfolio/Langues/bootstrap.png",
       text: "Bootstrap",
     },
      {
-      id: 7,
+      id: 8,
       imgsrc: "/Portfolio/Langues/express.png",
       text: "express.js",
     },
      {
-      id: 8,
+      id: 9,
       imgsrc: "/Portfolio/Langues/node.png",
       text: "node.js",
     },
     {
-      id: 9,
+      id: 10,
       imgsrc: "/Portfolio/Langues/git.jpeg",
       text: "git",
     },
     {
-      id: 10,
+      id: 11,
       imgsrc: "/Portfolio/Langues/github.png",
       text: "GitHub",
     },
     {
-      id: 11,
+      id: 12,
       imgsrc: "/Portfolio/Langues/terminal.png",
       text: "Terminal",
     },
     {
-      id: 12,
+      id: 13,
       imgsrc: "/Portfolio/Langues/gsap.png",
       text: "GSAP",
     },

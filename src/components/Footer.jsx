@@ -23,7 +23,7 @@ function Footer() {
                 </div>
             </div>
             <div>
-                <p className='text-[10px]'>© 2025 Biswajit. All rights reserved.</p>
+                <p className='text-[10px]'>© 2026 Biswajit. All rights reserved.</p>
                 <p className='text-[10px]'>Built with React and Tailwind CSS</p>
             </div>
 
