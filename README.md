@@ -20,7 +20,7 @@ This is a portfolio page built with react, tailwind, vite and JS to showcase my 
 ## 📁 Folder Structure
 
 ```
-Portfolio-tutorial/
+
 ├── public/
 |   ├──Langues/
 |   |       ├── bootstrap.png
