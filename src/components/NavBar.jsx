@@ -32,7 +32,7 @@ function NavBar() {
         <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 shadow-md fixed z-50 top-0 h-16 bg-white'>
             <div className='flex justify-between h-16 items-center'>
                 <div className='flex space-x-2 items-center'>
-                    <img src="/Portfolio/mern-logo.webp" alt="" className='h-12 w-22 rounded-xl' />
+                    <img src="/mern-logo.webp" alt="" className='h-12 w-22 rounded-xl' />
                     <h1 className='font-semibold text-2xl'>Biswaji<span className='text-green-500'>t</span>
                         <p className='text-sm'>MERN Developer</p>
                     </h1>

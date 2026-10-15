@@ -1,70 +1,69 @@
-import React from 'react'
 
 function Skill() {
   const skillItems = [
     {
       id: 1,
-      imgsrc: "/Portfolio/Langues/html.png",
+      imgsrc: "Langues/html.png",
       text: "HTML",
     },
     {
       id: 2,
-      imgsrc: "/Portfolio/Langues/css.jpg",
+      imgsrc: "Langues/css.jpg",
       text: "CSS",
     },
     {
       id: 3,
-      imgsrc: "/Portfolio/Langues/javascript.png",
+      imgsrc: "Langues/javascript.png",
       text: "JavaScript",
     },
     {
       id: 4,
-      imgsrc: "/Portfolio/Langues/reactjs.png",
+      imgsrc: "Langues/reactjs.png",
       text: "React.js",
     },
     {
       id: 5,
-      imgsrc: "/Portfolio/Langues/mongoDB-logopng",
+      imgsrc: "Langues/mongoDB-logo.png",
       text: "mongoDB",
     },
     {
       id: 6,
-      imgsrc: "/Portfolio/Langues/tailwind.png",
+      imgsrc: "Langues/tailwind.png",
       text: "Tailwind CSS",
     },
     {
       id: 7,
-      imgsrc: "/Portfolio/Langues/bootstrap.png",
+      imgsrc: "Langues/bootstrap.png",
       text: "Bootstrap",
     },
      {
       id: 8,
-      imgsrc: "/Portfolio/Langues/express.png",
+      imgsrc: "Langues/express.png",
       text: "express.js",
     },
      {
       id: 9,
-      imgsrc: "/Portfolio/Langues/node.png",
+      imgsrc: "Langues/node.png",
       text: "node.js",
     },
     {
       id: 10,
-      imgsrc: "/Portfolio/Langues/git.jpeg",
+      imgsrc: "Langues/git.jpeg",
       text: "git",
     },
     {
       id: 11,
-      imgsrc: "/Portfolio/Langues/github.png",
+      imgsrc: "Langues/github.png",
       text: "GitHub",
     },
     {
       id: 12,
-      imgsrc: "/Portfolio/Langues/terminal.png",
+      imgsrc: "Langues/terminal.png",
       text: "Terminal",
     },
     {
       id: 13,
-      imgsrc: "/Portfolio/Langues/gsap.png",
+      imgsrc: "Langues/gsap.png",
       text: "GSAP",
     },
   
