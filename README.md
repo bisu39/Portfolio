@@ -14,7 +14,7 @@ This is a portfolio page built with react, tailwind, vite and JS to showcase my 
 
 ## 🚀 Live Preview
 
-[Click here to view the live site]( https://bisu39.github.io/Portfolio/)
+[Click here to view the live site]( https://bisuportfolio.netlify.app/)
 
 
 ## 📁 Folder Structure
